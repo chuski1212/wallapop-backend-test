@@ -8,6 +8,8 @@ public class Field {
     private List<List<Integer>> obstacles;
     private Rover rover;
 
+    public Field() {}
+
     public Integer getSizeX() {
         return sizeX;
     }
@@ -22,5 +24,21 @@ public class Field {
 
     public void setSizeY(Integer sizeY) {
         this.sizeY = sizeY;
+    }
+
+    public List<List<Integer>> getObstacles() {
+        return obstacles;
+    }
+
+    public void setObstacles(List<List<Integer>> obstacles) {
+        this.obstacles = obstacles;
+    }
+
+    public Rover getRover() {
+        return rover;
+    }
+
+    public void setRover(Rover rover) {
+        this.rover = rover;
     }
 }

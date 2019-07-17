@@ -5,8 +5,8 @@ import com.wallapop.business.InitConfigurationDTO;
 class InitConfigurationMapper {
     static InitConfigurationDTO map(InitConfigurationVM initConfigurationVM) {
         InitConfigurationDTO dto = new InitConfigurationDTO();
-        dto.mapXSize = initConfigurationVM.mapXSize;
-        dto.mapYSize = initConfigurationVM.mapYSize;
+        dto.fieldXSize = initConfigurationVM.fieldXSize;
+        dto.fieldYSize = initConfigurationVM.fieldYSize;
         dto.numberOfObstacles = initConfigurationVM.numberOfObstacles;
         dto.obstacles = initConfigurationVM.obstacles;
         dto.roverInitialPositionX = initConfigurationVM.roverInitialPositionX;
