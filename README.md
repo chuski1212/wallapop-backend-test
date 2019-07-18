@@ -13,4 +13,6 @@ Things to improve:
     - Hide unnecessary entity attributes for the repository user, we´ll only send the needed values.
     
 Problems encountered:
-- Indecision to separate the files as package-per-feature or package-per-layer. At the end I decided package-per-layer because is more clear on projects of this small size. In case of adding extra features we could study the possibility of separate the files package-per-feature, because this way we can increase the cohesion and the autonomy of related files on bigger projects.    
+- Indecision to separate the files as package-per-feature or package-per-layer. At the end I decided package-per-layer because is more clear on projects of this small size. In case of adding extra features we could study the possibility of separate the files package-per-feature, because this way we can increase the cohesion and the autonomy of related files on bigger projects.
+
+- First of all thought about implementing the field using a matrix representing field obstacles, but using a HashMap to store obstacles is more memory efficient. 
