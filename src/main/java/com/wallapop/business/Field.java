@@ -1,36 +1,37 @@
 package com.wallapop.business;
 
 import java.util.List;
+import java.util.Set;
 
 public class Field {
-    private Integer sizeX;
-    private Integer sizeY;
-    private List<List<Integer>> obstacles;
+    private Long sizeX;
+    private Long sizeY;
+    private Set<List<Long>> obstacles;
     private Rover rover;
 
     public Field() {}
 
-    public Integer getSizeX() {
+    public Long getSizeX() {
         return sizeX;
     }
 
-    public void setSizeX(Integer sizeX) {
+    public void setSizeX(Long sizeX) {
         this.sizeX = sizeX;
     }
 
-    public Integer getSizeY() {
+    public Long getSizeY() {
         return sizeY;
     }
 
-    public void setSizeY(Integer sizeY) {
+    public void setSizeY(Long sizeY) {
         this.sizeY = sizeY;
     }
 
-    public List<List<Integer>> getObstacles() {
+    public Set<List<Long>> getObstacles() {
         return obstacles;
     }
 
-    public void setObstacles(List<List<Integer>> obstacles) {
+    public void setObstacles(Set<List<Long>> obstacles) {
         this.obstacles = obstacles;
     }
 

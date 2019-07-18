@@ -14,12 +14,12 @@ public class SouthDirection implements Direction {
     }
 
     @Override
-    public Coordinate goForward(Integer positionX, Integer positionY) {
+    public Coordinate goForward(Long positionX, Long positionY) {
         return new Coordinate(positionX, positionY - 1);
     }
 
     @Override
-    public Coordinate goBackward(Integer positionX, Integer positionY) {
+    public Coordinate goBackward(Long positionX, Long positionY) {
         return new Coordinate(positionX, positionY + 1);
     }
 

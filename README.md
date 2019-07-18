@@ -1,3 +1,6 @@
+Used:
+- DirectionFactory
+
 Things to improve:
 - For this exercise I´m assuming the initial configuration POST body will be correct, but a next step will be adding validation.
 - Add token authorization to protect endpoints.

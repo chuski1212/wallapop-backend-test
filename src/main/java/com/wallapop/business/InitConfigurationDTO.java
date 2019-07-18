@@ -1,13 +1,14 @@
 package com.wallapop.business;
 
 import java.util.List;
+import java.util.Set;
 
 public class InitConfigurationDTO {
-    public Integer fieldXSize;
-    public Integer fieldYSize;
+    public Long fieldXSize;
+    public Long fieldYSize;
     public Integer numberOfObstacles;
-    public List<List<Integer>> obstacles;
-    public Integer roverInitialPositionX;
-    public Integer roverInitialPositionY;
+    public Set<List<Long>> obstacles;
+    public Long roverInitialPositionX;
+    public Long roverInitialPositionY;
     public Character roverInitialDirection;
 }

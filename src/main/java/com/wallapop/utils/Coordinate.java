@@ -1,19 +1,34 @@
 package com.wallapop.utils;
 
-public class Coordinate {
-    private Integer first;
-    private Integer second;
+import java.util.Arrays;
+import java.util.List;
 
-    public Coordinate(Integer first, Integer second) {
+public class Coordinate {
+    private Long first;
+    private Long second;
+
+    public Coordinate(Long first, Long second) {
         this.first = first;
         this.second = second;
     }
 
-    public Integer getFirst() {
+    public Long getFirst() {
         return first;
     }
 
-    public Integer getSecond() {
+    public void setFirst(long first) {
+        this.first = first;
+    }
+
+    public Long getSecond() {
         return second;
+    }
+
+    public void setSecond(Long second) {
+        this.second = second;
+    }
+
+    public List<Long> asList() {
+        return Arrays.asList(first, second);
     }
 }

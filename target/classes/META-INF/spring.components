@@ -1,5 +1,5 @@
 #
-#Wed Jul 17 02:26:31 CEST 2019
+#Thu Jul 18 02:57:29 CEST 2019
 com.wallapop.business.FieldService=org.springframework.stereotype.Component
 com.wallapop.api.API=org.springframework.stereotype.Component
 com.wallapop.business.FieldRepository=org.springframework.stereotype.Component
