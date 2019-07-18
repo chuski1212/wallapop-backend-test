@@ -1,5 +1,5 @@
 #
-#Thu Jul 18 02:57:29 CEST 2019
-com.wallapop.business.FieldService=org.springframework.stereotype.Component
-com.wallapop.api.API=org.springframework.stereotype.Component
-com.wallapop.business.FieldRepository=org.springframework.stereotype.Component
+#Thu Jul 18 03:15:40 CEST 2019
+com.wallapop.marsRover.business.services.FieldService=org.springframework.stereotype.Component
+com.wallapop.marsRover.api.API=org.springframework.stereotype.Component
+com.wallapop.marsRover.business.repositories.FieldRepository=org.springframework.stereotype.Component

@@ -2,32 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="188cc0a4-e779-44e7-b5a5-20abd83fd457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldNotInitializedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/business/ObstacleEncounteredException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/api/API.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/api/API.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/api/InitConfigurationVM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/api/InitConfigurationVM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/business/Direction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/EastDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/business/EastDirection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/business/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/InitConfigurationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/business/InitConfigurationDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/NorthDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/business/NorthDirection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/business/Rover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/SouthDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/business/SouthDirection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/WestDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/business/WestDirection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/utils/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/utils/Coordinate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Field.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Field.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Field.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Field.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring.components" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/spring.components" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wallapop/api/API.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wallapop/api/API.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wallapop/business/FieldMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wallapop/business/FieldMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wallapop/business/FieldService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wallapop/business/FieldService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wallapop/business/Rover.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wallapop/business/Rover.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wallapop/utils/Coordinate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wallapop/utils/Coordinate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/api/API.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/api/API.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/api/InitConfigurationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/api/mappers/InitConfigurationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/api/InitConfigurationVM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/api/vms/InitConfigurationVM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/api/MoveRoverVM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/api/vms/MoveRoverVM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/DirectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/DirectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/EastDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/EastDirection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/entities/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/mappers/FieldMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldNotInitializedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/exceptions/FieldNotInitializedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/repositories/FieldRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/services/FieldService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/InitConfigurationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/dtos/InitConfigurationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/NorthDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/NorthDirection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/ObstacleEncounteredException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/exceptions/ObstacleEncounteredException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/entities/Rover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/SouthDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/SouthDirection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/business/WestDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/WestDirection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wallapop/utils/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/utils/Coordinate.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,35 +37,88 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Field.json">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/services/FieldService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+            <state relative-caret-position="436">
+              <caret line="72" column="41" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/api/API.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/Direction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-                <element signature="e#2021#2022#0" expanded="true" />
-                <element signature="e#2069#2070#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="84">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/DirectionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/EastDirection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/NorthDirection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/SouthDirection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/WestDirection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/Rover.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/utils/Coordinate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/mappers/FieldMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,84 +127,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestBody.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/repositories/FieldRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="52" column="36" lean-forward="true" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/InitConfigurationDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/Field.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Set.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-42">
-              <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+            <state relative-caret-position="145">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -217,10 +190,25 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Field.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wallapop/api/API.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wallapop/business/Field.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wallapop/business/InitConfigurationDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wallapop/business/Rover.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wallapop/api/vms/InitConfigurationVM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wallapop/api/mappers/InitConfigurationMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wallapop/api/API.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wallapop/business/services/FieldService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wallapop/business/repositories/FieldRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wallapop/business/mappers/FieldMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wallapop/business/entities/Field.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/api/business/entities/Rover.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/api/api/API.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/api/API.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/DirectionFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/EastDirection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/SouthDirection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/Direction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/entities/Rover.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/utils/Coordinate.java" />
       </list>
     </option>
   </component>
@@ -284,25 +272,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wallapop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wallapop" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wallapop" type="462c0819:PsiDirectoryNode" />
-              <item name="business" type="462c0819:PsiDirectoryNode" />
+              <item name="marsRover" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="backend" type="b2602c69:ProjectViewProjectNode" />
@@ -346,16 +316,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.API">
+  <component name="RunManager" selected="Spring Boot.API (1)">
     <configuration name="API" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wallapop.api.API" />
+      <option name="MAIN_CLASS_NAME" value="com.wallapop.marsRover.api.api.API" />
       <module name="backend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wallapop.api.*" />
+          <option name="PATTERN" value="com.wallapop.marsRover.api.api.vms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="API (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wallapop.marsRover.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wallapop.marsRover.api.API" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -375,6 +358,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.API (1)" />
         <item itemvalue="Application.API" />
         <item itemvalue="Spring Boot.API" />
       </list>
@@ -399,13 +383,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36643000" />
+    <option name="totallyTimeSpent" value="37695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17910448" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17910448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -416,7 +399,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.30985916" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.29577464" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.29577464" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -660,118 +643,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/utils/Coordinate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/Direction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/DirectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldNotInitializedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/ObstacleEncounteredException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-          <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/NorthDirection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/EastDirection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/WestDirection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/api/MoveRoverVM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/SouthDirection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/api/InitConfigurationVM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/api/InitConfigurationMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -782,82 +657,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/InitConfigurationDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Field.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/FieldRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/api/API.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#2021#2022#0" expanded="true" />
-            <element signature="e#2069#2070#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -868,10 +671,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/business/Rover.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/api/mappers/InitConfigurationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/api/vms/InitConfigurationVM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/api/vms/MoveRoverVM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/api/API.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/dtos/InitConfigurationDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/entities/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/entities/Rover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/exceptions/FieldNotInitializedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/exceptions/ObstacleEncounteredException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/mappers/FieldMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/repositories/FieldRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/services/FieldService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="72" column="41" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/Direction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/DirectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/EastDirection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/NorthDirection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/SouthDirection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/business/valueObjects/WestDirection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wallapop/marsRover/utils/Coordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
