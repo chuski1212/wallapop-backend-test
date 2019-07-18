@@ -7,6 +7,7 @@ import com.wallapop.marsRover.business.exceptions.FieldNotInitializedException;
 import com.wallapop.marsRover.business.services.FieldService;
 import com.wallapop.marsRover.business.dtos.InitConfigurationDTO;
 import com.wallapop.marsRover.business.exceptions.ObstacleEncounteredException;
+import com.wallapop.marsRover.business.services.RoverService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -23,10 +24,13 @@ public class API
 {
 
     private final FieldService fieldService;
+    private final RoverService roverService;
 
     @Autowired
-    API(FieldService fieldService) {
+    API(FieldService fieldService,
+        RoverService roverService) {
         this.fieldService = fieldService;
+        this.roverService = roverService;
     }
 
     @PostMapping("/initialize_configuration")
@@ -45,7 +49,7 @@ public class API
     public ResponseEntity moveRover(@RequestBody MoveRoverVM moveRoverVM) throws Exception {
         String message;
         try {
-            message = fieldService.moveRover(moveRoverVM.commands);
+            message = roverService.moveRover(moveRoverVM.commands);
         }
         catch (FieldNotInitializedException e) {
             return ResponseEntity.status(409).body(e.getMessage());
