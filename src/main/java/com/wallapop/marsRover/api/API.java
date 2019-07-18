@@ -9,15 +9,15 @@ import com.wallapop.marsRover.business.dtos.InitConfigurationDTO;
 import com.wallapop.marsRover.business.exceptions.ObstacleEncounteredException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 
+@SpringBootApplication
 @RestController
 @ComponentScan("com.wallapop")
-@EnableAutoConfiguration
 @Component
 public class API
 {
