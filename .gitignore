@@ -5,6 +5,7 @@
 .idea/
 
 src/main/resources/Field.json
+src/test/resources/Field.json
 
 # User-specific stuff:
 .idea/**/workspace.xml

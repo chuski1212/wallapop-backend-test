@@ -10,8 +10,6 @@ public class InitConfigurationVM {
     public Long fieldXSize;
     @JsonProperty(value = "fieldYSize")
     public Long fieldYSize;
-    @JsonProperty(value = "numberOfObstacles")
-    public Integer numberOfObstacles;
     @JsonProperty(value = "obstacles")
     public Set<List<Long>> obstacles;
     @JsonProperty(value = "roverInitialPositionX")
