@@ -5,20 +5,22 @@ import com.wallapop.marsRover.business.mappers.FieldMapper;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.io.*;
 import java.net.URL;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 
 @SuppressWarnings("unchecked")
 @Component
 public class FieldRepository {
-    private static String FIELD_FILE_PATH = "./src/main/resources/Field.json";
+
+    private InputOutputHelper inputOutputHelper;
+
+    @Autowired
+    FieldRepository(InputOutputHelper inputOutputHelper) {
+        this.inputOutputHelper = inputOutputHelper;
+    }
 
     public void save(Field field) throws Exception {
         URL fieldDatabaseUrl = getClass().getClassLoader().getResource("Field.json");
@@ -31,12 +33,11 @@ public class FieldRepository {
 
         String jsonAsString = jsonObject.toJSONString();
 
-        Path path = Paths.get(FIELD_FILE_PATH);
-        Files.write(path, jsonAsString.getBytes(StandardCharsets.UTF_8));
+        inputOutputHelper.writeOnfile(jsonAsString);
     }
 
     public Field findField() {
-        try (FileReader reader = new FileReader(FIELD_FILE_PATH)) {
+        try (FileReader reader = inputOutputHelper.readFromFile()) {
             JSONParser parser = new JSONParser();
             JSONObject jsonObject = (JSONObject) parser.parse(reader);
             JSONObject fieldJSONObject = (JSONObject) jsonObject.get("field");
