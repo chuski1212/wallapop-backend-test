@@ -30,7 +30,7 @@ Body params:
 
 Example of use and response:  
 
-![alt text](http://prntscr.com/oi78dn)
+![alt text](http://prntscr.com/oi791h)
 
 ---
 Problems encountered:
