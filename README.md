@@ -17,13 +17,20 @@ we can communicate with it with this two POST endpoints:
 
 `POST` _/initialize_configuration_
 
-Body params:
-"fieldXSize": 3,
-"fieldYSize": 3,
-"obstacles": [[1, 1], [2, 2]],
-"roverInitialPositionX": 0,
-	"roverInitialPositionY": 0,
-	"roverInitialDirection": "n"
+This endpoint is required first to initialize the app. It will create and store the field configuration.
+
+Body params:  
+
+"fieldXSize": `integer`   
+"fieldYSize": `integer`  
+"obstacles": `List of list of integers`  
+"roverInitialPositionX": `integer`  
+"roverInitialPositionY": `integer`  
+"roverInitialDirection": `string (n,w,e,s)`
+
+Example of use and response:  
+
+![alt text](http://prntscr.com/oi78dn)
 
 ---
 Problems encountered:
