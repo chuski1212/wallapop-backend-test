@@ -30,7 +30,24 @@ Body params:
 
 Example of use and response:  
 
-![alt text](http://prntscr.com/oi791h)
+![initialize_configuration](https://github.com/chuski1212/wallapop-backend-test/blob/master/images/initialize_configuration.png)  
+
+  
+`POST` _/move_rover_
+
+With this endpoint we can send movement instructions to the server.
+
+Body params:
+
+"commands": `string (sequence of f,b,l,r)`
+
+Example of use and response:  
+
+![move_rover](https://github.com/chuski1212/wallapop-backend-test/blob/master/images/move_rover.png)  
+
+In case of finding an obstacle:
+
+![obstacle](https://github.com/chuski1212/wallapop-backend-test/blob/master/images/obstacle.png)  
 
 ---
 Problems encountered:
